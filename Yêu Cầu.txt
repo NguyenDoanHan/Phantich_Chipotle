@@ -1,0 +1,16 @@
+
+Nhà hàng Chipotle cần phân tích dữ liệu bán được trong ngày diễn ra khuyến mãi để có thể điều chỉnh thực đơn và thực hiện các chương trình khuyến mãi phù hợp.
+
+Dữ liệu được cung cấp trong file chipotle.tsv, hãy thực hiện các yêu cầu sau trong file đính kèm:
+1. Đọc dữ liệu và gán vào biến chipo. Hiển thị 10 dòng đầu của dữ liệu.
+2. Tạo biến x chứa các item_name là các món ăn được khách hàng gọi , in head của x
+Tạo một dictionary với 2 thông tin: tên món ăn (item_name) và tần suất/số lần gọi món (gợi ý: sử dụng collections.Counter(x)), in kết quả
+3. Chuyển dictionary câu 2 thành DataFrame df để chuẩn bị cho các yêu cầu phân tích sau đó
+4. a) Sắp xếp df theo tần suất giảm dần, và lấy 5 item đầu tiên
+b) Vẽ biểu đồ bar chart cho biết 5 món được gọi nhiều nhất (có title, xlabel, ylabel và xsticks)
+5. a) Đổi kiểu dữ liệu của cột item_price sang kiểu số thực
+b) Nhóm các đơn hàng theo order_id, và tính tổng số lượng gọi và tổng giá trị của mỗi đơn hàng, in kết quả
+6. Từ câu 5b, hãy vẽ scatterplot với x là item_price, và y là quantity, có title, xlabel, ylabel.
+Bạn có nhận xét gì qua biểu đồ này ?
+
+
